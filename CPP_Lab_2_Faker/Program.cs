@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fakernamespace;
+using System;
 
 namespace CPP_Lab_2_Faker
 {
@@ -6,7 +7,15 @@ namespace CPP_Lab_2_Faker
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Faker faker = new Faker();
+            Foo foo = faker.Create<Foo>();
+            
         }
+    }
+    class Foo 
+    {
+        public int test1;
+        public string test2;
+        public long test3;
     }
 }
