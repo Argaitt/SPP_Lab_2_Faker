@@ -1,5 +1,6 @@
 ﻿using Fakernamespace;
 using System;
+using System.Collections.Generic;
 
 namespace CPP_Lab_2_Faker
 {
@@ -17,5 +18,12 @@ namespace CPP_Lab_2_Faker
         public int test1;
         public string test2;
         public long test3;
+        public float test4;
+        public string test5;
+        public DateTime test6;
+        public List<int> test7;
+        public List<string> test8;
+        public double test9;
+        public List<double> test10;
     }
 }
